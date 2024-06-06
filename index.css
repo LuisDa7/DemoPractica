@@ -27,10 +27,11 @@
 }
 .navbar{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 1%;
+    gap: 3%;
+    padding: 10px;
     grid-area: navbar;
     .link{
         text-decoration: none;
@@ -53,5 +54,10 @@
     color: #b0b0b0;
     p{
         text-align: center;
+    }
+}
+@media(min-width:768px){
+    body{
+        grid-template-rows: 60% 15% 25%;
     }
 }
