@@ -7,7 +7,7 @@ body {
         "navbar"
         "main"
         "footer";
-    grid-template-rows: 20% 15% auto 15%;
+    grid-template-rows: 3% 2% auto 15%;
 }
 
 .header {
@@ -57,22 +57,59 @@ body {
 .main {
     grid-area: main;
     margin: 1%;
-
+    h2{
+        text-align: center;
+        margin: 3%;
+    }
     .post {
-        display: flex;
+        display: grid;
+        grid-template-columns: 60% 40%;
         align-items: center;
         justify-content: space-between;
         padding: 2%;
         gap: 4%;
+        margin: 1%;
 
         .img-container {
-            width: 40%;
-            height: 40%;
-
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img {
-                width: 100%;
+                width: 80%;
             }
         }
+    }
+
+    .practica{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 2%;
+        gap: 4%;
+        margin: 1%;
+
+        .dropdown-container {
+            display: flex;
+            align-items: center;
+            border-radius: 5%;
+            justify-content: center;
+            background-image: url('./assets/otros/1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 25rem;
+            height: 25rem;
+            .dropdown{
+                width: 70%;
+                .btn{
+                    width: 100%;
+                }
+            }
+        }
+
     }
 
     span {
