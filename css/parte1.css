@@ -1,0 +1,10 @@
+@import url('./styles.css');
+@import url('./parte2.css');
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: 15% auto 15%;
+}
