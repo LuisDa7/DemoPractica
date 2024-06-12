@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Parte 3 | Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilo-principal.css">
+</head>
+
+<body>
+  <header>
+    <img src="assets/logo/bootstrapLogo.png" class="logo">
+    <h1>Bootstrap</h1>
+  </header>
+  <nav>
+    <div class="nav-button"><a href="#modal">Modal</a></div>
+    <div class="nav-button"><a href="#pagination">Pagination</a></div>
+    <div class="nav-button"><a href="#nav-tab">Navs & tabs</a></div>
+</nav>
+  <main>
+    <section>
+      <h1 id="modal">Modales</h1>
+      <p>El modal es una ventana emergente que se superpone sobre cualquier contenido principal de una página. Aunque es
+        bastante flexible y se le puede dar usos muy variados, normalmente se utiliza para dar mensajes breves o
+        funcionan como medio de confirmación antes de efectuar una acción.</p>
+        <p>Clases para personalizar tu modal:</p>
+        <ul>
+          <li><p>Clase para centrar el modal: "modal-dialog-centered".</p></li>
+          <li><p>Clase para aumentar el tamaño del modal: "modal-xl".</p></li>
+          <li><p>Clase para disminuir el tamaño del modal: "modal-sm".</p></li>
+          <li><p>Clase para agregarle una barra de desplazamiento al modal en caso de que el cuerpo del modal sea muy extenso: "modal-dialog-scrollable".</p></li>
+        </ul>
+      <h2>Modal simple:</h2>
+      <p class="codepen" data-height="558.3999938964844" data-theme-id="dark" data-slug-hash="qBGPQaq" data-pen-title="Untitled" data-editable="true" data-user="Gerald-L-pez-the-bashful" style="height: 558.3999938964844px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/Gerald-L-pez-the-bashful/pen/qBGPQaq">
+        Untitled</a> by Gerald López (<a href="https://codepen.io/Gerald-L-pez-the-bashful">@Gerald-L-pez-the-bashful</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    </section>
+    <section>
+      <h2>Modal Estático</h2>
+      <p>Cuando un modal se declara estático, la única manera de poder cerrarlo será con las opciones que nos dé el
+        modal,
+        es decir, no funcionará la tecla ESC, ni tocar fuera del modal.
+      </p>
+      <p class="codepen" data-height="497.6000061035156" data-theme-id="dark" data-slug-hash="oNRGQew" data-pen-title="Untitled" data-editable="true" data-user="Gerald-L-pez-the-bashful" style="height: 497.6000061035156px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/Gerald-L-pez-the-bashful/pen/oNRGQew">
+        Untitled</a> by Gerald López (<a href="https://codepen.io/Gerald-L-pez-the-bashful">@Gerald-L-pez-the-bashful</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    </section>
+    <section>
+      <h1 id="pagination">Pagination</h1>
+      <p>Son diferentes particiones de información con contenido similar. 
+        Son utilizadas cuando se vuelve muy pesado o molesto para el usuario si toda la información se encontrase en una única página principal. 
+        La cantidad de información que contiene cada paginación depende exclusivamente de las desiciones del desarrollador. </p>
+        <h3>Clases para personalizar nuestra paginacion:</h3>
+        <ul>
+            <li><p>Activar o desactivar una de las particiones. Clases: ".active .disabled". Estas clases se agregan al 
+                elemento de la lista que represente la partición que queremos activar o desactivar.
+            </p></li>
+            <li><p>Alterar el tamaño de la paginación. Clases: ".pagination-lg .pagination-sm".</p></li>
+            <li><p>Cambiar la alineación con las utilidades de flexbox. Clases: ".justify-content-center .justify-content-end".</p></li>
+        </ul>
+        <h2>Diseño simple de una paginación:</h2>
+        <p class="codepen" data-height="477.5999755859375" data-theme-id="dark" data-slug-hash="BaewGwG" data-pen-title="Untitled" data-editable="true" data-user="Gerald-L-pez-the-bashful" style="height: 477.5999755859375px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/Gerald-L-pez-the-bashful/pen/BaewGwG">
+            Untitled</a> by Gerald López (<a href="https://codepen.io/Gerald-L-pez-the-bashful">@Gerald-L-pez-the-bashful</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    </section>
+    <section>
+      <h2>Paginación con íconos:</h2>
+      <p>En lugar de utilizar texto en los botones de anterior y siguiente, también podemos utilizar 
+          íconos de flechas un poco más intuitivas para sustituirlo.
+      </p>
+      <p class="codepen" data-height="463.9999694824219" data-theme-id="dark" data-slug-hash="mdYBaba" data-pen-title="Untitled" data-editable="true" data-user="Gerald-L-pez-the-bashful" style="height: 463.9999694824219px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+          <span>See the Pen <a href="https://codepen.io/Gerald-L-pez-the-bashful/pen/mdYBaba">
+          Untitled</a> by Gerald López (<a href="https://codepen.io/Gerald-L-pez-the-bashful">@Gerald-L-pez-the-bashful</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  </section>
+  <section>
+    <h1 id="nav-tab">Navs & Tabs</h1>
+    <p>"Navs" es una abreviatura de navegación. Los navs de Bootstrap nos permiten crear menús de navegación flexibles y nos ofrece diversas clases para darles el estilo deseado</p>
+    <h2>Clases para personalizar nuestros navs:</h2>
+    <ul>
+        <li>
+            <p>Clases para cambiar la alineación de nuestro nav utilizando las utilidades de flexbox:</p>
+            <ul>
+                <li><p>Clase para centrar el menú de navegación: ".justify-content-center".</p></li>
+                <li><p>Clase para alinearlo a la derecha: ".justify-content-end".</p></li>
+            </ul>
+        </li>
+        <li>
+            <p>Clase para crear regiones tabbables: ".nav-tabs".</p>
+        </li>
+        <li>
+            <p>Clase para ordenar el nav verticalmente: ".flex-column".</p>
+        </li>
+        <li><p>Clase para separar los elementos proporcionalmente: ".nav-fill".</p>
+        </li>
+        <li><p>Clase para crear un menú de navegación responsivo utilizando funciones flexbox: "flex-column flex-sm-row".</p>
+        </li>
+    </ul>
+</section>
+<section>
+  <h2>Menú de navegación simple</h2>
+  <p class="codepen" data-height="308.7999572753906" data-theme-id="dark" data-slug-hash="PovJaPG" data-pen-title="Untitled" data-editable="true" data-user="Gerald-L-pez-the-bashful" style="height: 308.7999572753906px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/Gerald-L-pez-the-bashful/pen/PovJaPG">
+      Untitled</a> by Gerald López (<a href="https://codepen.io/Gerald-L-pez-the-bashful">@Gerald-L-pez-the-bashful</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</section>
+<section>
+  <h2>¿Cómo agregar contenido en los tabs?</h2>
+  <p>Podemos utilizar JavaSript como completemento para ampliar nuetros tabs y crear paneles de contenido local.</p>
+  <p class="codepen" data-height="553.6000366210938" data-theme-id="dark" data-slug-hash="VwOrwRX" data-pen-title="Untitled" data-editable="true" data-user="Gerald-L-pez-the-bashful" style="height: 553.6000366210938px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/Gerald-L-pez-the-bashful/pen/VwOrwRX">
+    Untitled</a> by Gerald López (<a href="https://codepen.io/Gerald-L-pez-the-bashful">@Gerald-L-pez-the-bashful</a>)
+    on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</section>
+  </main>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

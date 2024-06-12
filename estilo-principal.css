@@ -1,0 +1,85 @@
+header{
+    background-color: #61187e;
+    text-align: center;
+    position: relative;
+    padding: 40px;;
+}
+header h1{
+    color:white;
+    font-size: 80px;
+}
+.button-modal{
+    align-self: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  color: #fff;
+  padding-top: 10px;
+        padding-bottom: 10px;
+}
+  
+  
+
+main{
+     padding-top: 10px;
+        padding-bottom: 60px;
+        background-color: #31113d;
+}
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0 auto;
+    background-color: rgb(149, 53, 187);
+    max-width: 80%;
+}
+main h1{
+
+    text-align: center;
+    color:  white;
+}
+
+.logo{
+    height: 170px;
+    width: 200px;
+    position: absolute;
+    left: 30px;
+    bottom: 17px;
+}
+nav {
+
+    background-color: #3e1050;
+    display: flex;
+    justify-content: center; 
+    padding: 14px 0; 
+}
+
+.nav-button {
+    margin: 0 auto;
+}
+
+.nav-button a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav-button a:hover {
+    background-color: #e7adef;
+    color: black;
+}
+
+div {
+    padding: 20px;
+    margin: 10px;
+}
