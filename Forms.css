@@ -1,0 +1,75 @@
+*{
+    color: rgb(231, 231, 231);
+}
+main{
+    background-color: #531b6a;
+}
+main h2{
+    text-align: center;
+    font-size: 2rem;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 1rem 1rem;
+}
+header{
+    background-color: #531b6a;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+}
+header h1{
+    font-size: 5rem;
+}
+.logo{
+    height: 130px;
+    width: 160px;
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+}
+
+nav ul{
+    background-color: #531b6a;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-table;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: rgb(51, 16, 78);
+}
+.linkdocs{
+    color: rgb(231, 231, 231);
+    text-decoration: underline;
+}
+.linkdocs:hover{
+    padding: 0.5rem;
+    background-color: rgb(51, 16, 78);
+    margin: 0 auto;
+}
+section{
+    background-color: #743b8a;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.codigo{
+    color: aqua;
+}
+
+footer{
+    background-color: #531b6a;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+}

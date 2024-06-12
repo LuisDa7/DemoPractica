@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Forms.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="logo de Bootstrap" class="logo">
+        <h1>Bootstrap</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Paso1">Paso 1</a></li>
+            <li><a href="#Paso2">Paso 2</a></li>
+            <li><a href="#CorreoContra">Correo y contraseña</a></li>
+            <li><a href="#ArchivosListas">Archivos y Listas</a></li>
+            <li><a href="#OtrosElementos">Otros elementos</a></li>
+            <li><a href="#extra">Atributos y clases</a></li>
+            <li><a href="#practica">Práctica</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="Forms">Aplicando un forms a una página web</h2>
+        <section id="Bootstrap">
+            <article id="Paso1">
+                <h3>Paso 1: Agregar Bootstrap al proyecto</h3>
+                <br>
+                <p>Se puede agregar ya sea descargando los archivos css, js y colocándolos donde
+                    se encuentra el proyecto, o referenciándolos en el head y el body de tu proyecto.
+                </p>
+                <br>
+                <p>Manual para descargar Bootstrap en tu proyecto</p>
+                <a href="Manual Bootstrap.docx" class="linkdocs">Descargar manual</a>
+
+            </article>
+        </section>
+        <section id="HTML">
+            <article id="Paso2">
+                <h3>Paso 2: Hacer el formulario en el HTML del proyecto</h3>
+                <br>
+                <p>Existen muchas opciones y elementos para colocar en un formulario, asi
+                    que es recomendable ver los componentes que sean más favorables para tu sitio web
+                </p>
+                <br>
+                <p>Estos son algunos de los elementos más utilizados.</p>
+                <p>Importante mencionar que el formulario tiene su propia etiqueta &lt;form&gt;&lt;/form&gt;</p>
+                <br>
+            </article>
+            <article id="CorreoContra">
+                <h3>Correo electrónico y contraseña</h3>
+                <p class="codigo">
+                    &lt;div class="mb-3"><br>
+                    &lt;label for="exampleInputEmail1" class="form-label">Dirección de correo
+                    electrónico&lt;/label&gt;<br>
+                    &lt;input type="email" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp"&gt;<br>
+                    &lt;/div&gt;<br><br>
+                    &lt;div class="mb-3"&gt;<br>
+                    &lt;label for="exampleInputPassword1" class="form-label">Contraseña&lt;/label&gt;<br>
+                    &lt;input type="password" class="form-control" id="exampleInputPassword1"&gt;<br>
+                    &lt;/div&gt;
+                </p>
+            </article>
+            <article id="ArchivosListas">
+                <h3>Entrada de Archivo y Listas de datos</h3>
+                <p class="codigo">
+                    &lt;div class="mb-3"&gt;<br>
+                    &lt;label for="formfile" class="form-label">Por favor seleccione un archivo&lt;/label&gt;<br>
+                    &lt;input class="form-control" type="file" id="formFile"&gt;<br>
+                    &lt;/div&gt;<br><br>
+
+                    &lt;label for="exampleDataList" class="form-label">Pronvincias de Costa Rica&lt;/label&gt;<br>
+                    &lt;input class="form-control" list="datalistOptions" id="exampleDataList"&gt;<br>
+                    &lt;datalist id="datalistOptions"&gt;<br>
+                    &lt;option value="Heredia"&gt;<br>
+                    &lt;option value="San José"&gt;<br>
+                    &lt;option value="Alajuela"&gt;<br>
+                    &lt;option value="Cartago"&gt;<br>
+                    &lt;option value="Limón"&gt;<br>
+                    &lt;option value="Puntarenas"&gt;<br>
+                    &lt;option value="Guanacaste"&gt;<br>
+                    &lt;/datalist&gt;<br>
+
+                </p>
+            </article>
+            <article id="OtrosElementos">
+                <h3>Otros elementos</h3><br>
+                <h5>Código para un checkbox</h5>
+                <p class="codigo">
+                    &lt;div class="mb-3 form-check"&gt;<br>
+                    &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;<br>
+                    &lt;label class="form-check-label" for="exampleCheck1">Echáme un vistazo&lt;/label&gt;<br>
+                    &lt;/div&gt;<br>
+                </p>
+                <h5>Código para un botón</h5>
+                <p class="codigo">
+                    &lt;button type="submit" class="btn btn-primary"&gt;Enviar&lt;/button&gt;
+                </p>
+                <ul>
+                    <li>Para desabilitar algun elemento se usa la palabra <i>disabled</i></li>
+                    <li>Para desabilitar un conjunto de elementos se puede usar la etiqueta &lt;fieldset
+                        disabled="disabled"&gt;&lt;/fieldset&gt;</li>
+                </ul>
+                <p class="codigo">
+                    &lt;input class="form-control" id="disabledInput" type="text" placeholder="Elemento desabilitado"
+                    disabled&gt;<br>
+
+                    &lt;input class="form-control" type="text" value="Control de solo lectura" aria-label="readonly
+                    input example" readonly&gt;
+                </p>
+            </article>
+            <article id="extra">
+                <h3>Atributos y clases que se pueden usar en los diferentes componentes</h3>
+                <ul>
+                    <li>Placeholder</li>
+                    <li>form-control-lg/sm</li>
+                    <li>form-text</li>
+                    <li>form-control-plaintext</li>
+                </ul>
+            </article>
+        </section>
+        <section id="practica">
+            <h3>Práctica</h3>
+            <iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/Ashuri/embed/abrVOdP?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                See the Pen <a href="https://codepen.io/Ashuri/pen/abrVOdP">
+                Untitled</a> by AshleyNG (<a href="https://codepen.io/Ashuri">@Ashuri</a>)
+                on <a href="https://codepen.io">CodePen</a>.
+              </iframe>
+        </section>
+    </main>
+    <footer>
+        <h2>Demo práctica de Bootstrap 2024</h2>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
